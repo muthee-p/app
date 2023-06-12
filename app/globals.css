@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.main{
+  @apply flex min-h-screen flex-col items-center justify-between p-24;
+}
+.flex-between {
+  @apply flex justify-between items-center;
+}
