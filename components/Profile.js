@@ -6,13 +6,14 @@ const Profile = () =>{
 		<div className= 'flex-between flex-col'>
 			<Link href='/profile'>
 				<Image src='/assets/images/profile.png' alt='profile pic' 
-					className='rounded-full'
+					className='rounded-full mb-8'
 					width={100}
           			height={100} />
 			</Link>
-			<h4>Mary Jane</h4>
-			<p className= 'font-mono'>Doctor</p>
-			<Link href='/profile' className='rounded-full bg-white text-black p-2'>View Profile</Link>
+			<h4 className=''>Mary Jane</h4>
+			<p className= 'font-mono text-sm text-sky-400'>Doctor</p>
+			<Link href='/profile' className='rounded-full bg-white text-gray-700 p-1 w-32 text-center mt-2 hover:bg-sky-400'>
+			View Profile</Link>
 		</div>
 		)
 }

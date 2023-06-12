@@ -1,7 +1,7 @@
 const SuggestedPosts = () =>{
 	return(
 		<div>
-			<h2 className='font-mono'>Suggested Posts</h2>
+			<h2 className='font-mono text-blue-400 text-xl'>Suggested Posts</h2>
 			<p>Posts here</p>
 		</div>
 		)
